@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f8ff;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#current-image-container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+ul#search-history {
+  list-style: none;
+  padding: 0;
+}
+
+ul#search-history li {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #e0e0e0;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
